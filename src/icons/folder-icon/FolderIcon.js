@@ -3,7 +3,7 @@ import * as React from 'react';
 
 import IconFolderCollab from '../design-assets/Icon/32x32/Folder/Shared';
 import IconFolderExternal from '../design-assets/Icon/32x32/Folder/External';
-import IconFolderPersonal from '../fdesign-assets/Icon/32x32/Folder/Personal';
+import IconFolderPersonal from '../design-assets/Icon/32x32/Folder/Personal';
 
 type Props = {
     /** Dimension of the icon */

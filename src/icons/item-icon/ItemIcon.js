@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 
-import BookmarkIcon from 'design-assets/Icon/32x32/File/Box/Bookmark';
+import BookmarkIcon from '../design-assets/Icon/32x32/File/Box/Bookmark';
 import IconFileAudio from '../design-assets/Icon/32x32/File/Box/Audio';
 import IconFileBoxNote from '../design-assets/Icon/32x32/File/Box/BoxNote';
 import IconFileCode from '../design-assets/Icon/32x32/File/Box/Code';
@@ -21,8 +21,8 @@ import IconFilePages from '../design-assets/Icon/32x32/File/Apple/Pages';
 import IconFilePDF from '../design-assets/Icon/32x32/File/Adobe/PDF';
 import IconFilePhotoshop from '../design-assets/Icon/32x32/File/Adobe/Photoshop';
 import IconFilePowerpointPresentation from '../design-assets/Icon/32x32/File/Msft/Powerpoint';
-import IconFilePresentation from '../design-assets/Icon/32x32/Box/Presentation';
-import IconFileSpreadsheet from '../design-assets/Icon/32x32/Box/Spreadsheet';
+import IconFilePresentation from '../design-assets/Icon/32x32/File/Box/Presentation';
+import IconFileSpreadsheet from '../design-assets/Icon/32x32/File/Box/Spreadsheet';
 import IconFileText from '../design-assets/Icon/32x32/File/Box/Text';
 import IconFileThreeD from '../design-assets/Icon/32x32/File/Box/ThreeD';
 import IconFileVector from '../design-assets/Icon/32x32/File/Box/Vector';
@@ -32,7 +32,7 @@ import IconFileZip from '../design-assets/Icon/32x32/File/Box/Zip';
 
 import IconFolderCollab from '../design-assets/Icon/32x32/Folder/Shared';
 import IconFolderExternal from '../design-assets/Icon/32x32/Folder/External';
-import IconFolderPersonal from '../fdesign-assets/Icon/32x32/Folder/Personal';
+import IconFolderPersonal from '../design-assets/Icon/32x32/Folder/Personal';
 
 const itemIconTable = {
     audio: IconFileAudio,
