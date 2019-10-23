@@ -1,7 +1,7 @@
 // @flow
 /* eslint-disable react/jsx-sort-props */
 import * as React from 'react';
-import AccessibleSVG from 'box-ui-elements/es/icons/accessible-svg';
+import AccessibleSVG from '../../../../../accessible-svg';
 
 type SvgProps = {
     height?: number,
