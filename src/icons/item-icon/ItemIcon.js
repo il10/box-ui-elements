@@ -1,39 +1,38 @@
 // @flow
 import * as React from 'react';
 
-import IconFileAudio from '../file/IconFileAudio';
-import IconFileBoxNote from '../file/IconFileBoxNote';
-import IconFileCode from '../file/IconFileCode';
-import IconFileDefault from '../file/IconFileDefault';
-import IconFileDocument from '../file/IconFileDocument';
-import IconFileDwg from '../file/IconFileDwg';
-import IconFileExcelSpreadsheet from '../file/IconFileExcelSpreadsheet';
-import IconFileGoogleDocs from '../file/IconFileGoogleDocs';
-import IconFileGoogleSheets from '../file/IconFileGoogleSheets';
-import IconFileGoogleSlides from '../file/IconFileGoogleSlides';
-import IconFileIllustrator from '../file/IconFileIllustrator';
-import IconFileImage from '../file/IconFileImage';
-import IconFileIndesign from '../file/IconFileIndesign';
-import IconFileKeynote from '../file/IconFileKeynote';
-import IconFileNumbers from '../file/IconFileNumbers';
-import IconFilePages from '../file/IconFilePages';
-import IconFilePDF from '../file/IconFilePDF';
-import IconFilePhotoshop from '../file/IconFilePhotoshop';
-import IconFilePowerpointPresentation from '../file/IconFilePowerpointPresentation';
-import IconFilePresentation from '../file/IconFilePresentation';
-import IconFileSpreadsheet from '../file/IconFileSpreadsheet';
-import IconFileText from '../file/IconFileText';
-import IconFileThreeD from '../file/IconFileThreeD';
-import IconFileVector from '../file/IconFileVector';
-import IconFileVideo from '../file/IconFileVideo';
-import IconFileWordDocument from '../file/IconFileWordDocument';
-import IconFileZip from '../file/IconFileZip';
+import BookmarkIcon from 'design-assets/Icon/32x32/File/Box/Bookmark';
+import IconFileAudio from '../design-assets/Icon/32x32/File/Box/Audio';
+import IconFileBoxNote from '../design-assets/Icon/32x32/File/Box/BoxNote';
+import IconFileCode from '../design-assets/Icon/32x32/File/Box/Code';
+import IconFileDefault from '../design-assets/Icon/32x32/File/Box/Default';
+import IconFileDocument from '../design-assets/Icon/32x32/File/Box/Text';
+import IconFileDwg from '../design-assets/Icon/32x32/File/Box/Dwg';
+import IconFileExcelSpreadsheet from '../design-assets/Icon/32x32/File/Msft/Excel';
+import IconFileGoogleDocs from '../design-assets/Icon/32x32/File/Google/Docs';
+import IconFileGoogleSheets from '../design-assets/Icon/32x32/File/Google/Sheets';
+import IconFileGoogleSlides from '../design-assets/Icon/32x32/File/Google/Slides';
+import IconFileIllustrator from '../design-assets/Icon/32x32/File/Adobe/Illustrator';
+import IconFileImage from '../design-assets/Icon/32x32/File/Box/Image';
+import IconFileIndesign from '../design-assets/Icon/32x32/File/Adobe/Indesign';
+import IconFileKeynote from '../design-assets/Icon/32x32/File/Apple/Keynote';
+import IconFileNumbers from '../design-assets/Icon/32x32/File/Apple/Numbers';
+import IconFilePages from '../design-assets/Icon/32x32/File/Apple/Pages';
+import IconFilePDF from '../design-assets/Icon/32x32/File/Adobe/PDF';
+import IconFilePhotoshop from '../design-assets/Icon/32x32/File/Adobe/Photoshop';
+import IconFilePowerpointPresentation from '../design-assets/Icon/32x32/File/Msft/Powerpoint';
+import IconFilePresentation from '../design-assets/Icon/32x32/Box/Presentation';
+import IconFileSpreadsheet from '../design-assets/Icon/32x32/Box/Spreadsheet';
+import IconFileText from '../design-assets/Icon/32x32/File/Box/Text';
+import IconFileThreeD from '../design-assets/Icon/32x32/File/Box/ThreeD';
+import IconFileVector from '../design-assets/Icon/32x32/File/Box/Vector';
+import IconFileVideo from '../design-assets/Icon/32x32/File/Box/Video';
+import IconFileWordDocument from '../design-assets/Icon/32x32/File/Msft/Word';
+import IconFileZip from '../design-assets/Icon/32x32/File/Box/Zip';
 
-import BookmarkIcon from '../bookmark-icon';
-
-import IconFolderCollab from '../folder/IconFolderCollab';
-import IconFolderExternal from '../folder/IconFolderExternal';
-import IconFolderPersonal from '../folder/IconFolderPersonal';
+import IconFolderCollab from '../design-assets/Icon/32x32/Folder/Shared';
+import IconFolderExternal from '../design-assets/Icon/32x32/Folder/External';
+import IconFolderPersonal from '../fdesign-assets/Icon/32x32/Folder/Personal';
 
 const itemIconTable = {
     audio: IconFileAudio,
